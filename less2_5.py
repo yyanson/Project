@@ -7,5 +7,4 @@ while game != 0:
     new_list.append(user_num)
     new_list.sort(reverse=True)
     print('Рейтинг:', new_list)
-    new_list = my_list
     game = int(input('Продолжаем? Нет - 0, да - 1: '))
